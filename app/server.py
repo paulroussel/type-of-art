@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/39f3lejk5dxc3nc/model_learner.pkl?dl=0'
-export_file_name = 'model_learner'
+export_file_url = 'https://drive.google.com/file/d/1-EYBSuVP1d7iB_ZPmQYYOvWaNtQkpsHP/view?usp=sharing'
+export_file_name = 'model_learner.pkl'
 
 classes = ['drawing', 'painting', 'photography','work_on_paper']
 path = Path(__file__).parent
