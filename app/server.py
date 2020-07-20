@@ -14,8 +14,8 @@ from starlette.staticfiles import StaticFiles
 
 #classes = ['black', 'grizzly', 'teddys']
 
-export_file_url = 'https://www.dropbox.com/s/c3ngsewjh5x2sns/model_learner.txt?dl=0'
-export_file_name = 'model_learner.txt'
+export_file_url = 'https://www.dropbox.com/s/2zfwj71rf79j49j/export.pkl?raw=1'
+export_file_name = 'export.pkl'
 
 classes = ['drawing', 'painting', 'photography','work_on_paper']
 path = Path(__file__).parent
